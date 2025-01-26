@@ -6,3 +6,7 @@
 * dependencies 需引用 Spring Web，並建立 test RestController
 ## 使用 Dockerfile 打包複製 war 進 Tomcat image 並啟動
 * tomcat 影像使用 https://hub.docker.com/_/tomcat/tags
+## 建立影像
+* sudo docker build -t mytomcat:latest .
+## 啟動容器
+* sudo docker run -p 8080:8080 --rm --name my-running-tomcat mytomcat:latest
