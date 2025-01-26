@@ -4,6 +4,7 @@
 * Spring boot 3.4.2 (搭配 JDK, Tomcat 最低版本如下)
 * JDK 17
 * Tomcat 10
+## [Dockerfile](http://192.168.50.30:8080/benson/docker-spring-boot-tomcat/src/branch/main/Dockerfile)
 ## 使用 Dockerfile 打包 Spring boot War 
 * maven 影像使用 https://hub.docker.com/_/maven
 * 使用 spring initializr 建立 Spring boot 專案
