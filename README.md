@@ -1,4 +1,9 @@
 # 使用 Dockerfile 建立 Tomcat image 並部署 Spring boot
+## 環境版本
+* maven 3.9.9
+* Spring boot 3.4.2 (搭配 JDK, Tomcat 最低版本如下)
+* JDK 17
+* Tomcat 10
 ## 使用 Dockerfile 打包 Spring boot War 
 * maven 影像使用 https://hub.docker.com/_/maven
 * 使用 spring initializr 建立 Spring boot 專案
