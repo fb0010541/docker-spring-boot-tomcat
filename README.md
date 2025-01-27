@@ -25,3 +25,4 @@ CMD ["catalina.sh","run"]
 * sudo docker build -t mytomcat:latest .
 ## 啟動容器
 * sudo docker run -p 8080:8080 --rm --name my-running-tomcat mytomcat:latest
+* 點選 http://localhost:8080/docker-spring-boot-tomcat/hello 驗證結果
