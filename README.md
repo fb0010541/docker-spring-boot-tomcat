@@ -17,7 +17,7 @@ COPY --from=builder ./target/*.war /usr/local/tomcat/webapps/
 CMD ["catalina.sh","run"]
 ```
 > line 1-4 : 使用 maven 容器打包 Spring boot war 檔，
-> maven image 來源請參考 [dockerhub maven](https://hub.docker.com/_/maven)
+> maven image 來源請參考 [dockerhub maven](https://hub.docker.com/_/maven)  
 > line 5-7 : 將 war 部署到 Tomcat 中，
 > Tomcat image 來源請參考 [dockerhub tomcat]https://hub.docker.com/_/tomcat/tags)
 ### 建立影像
